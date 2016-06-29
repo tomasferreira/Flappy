@@ -3,10 +3,9 @@ package org.academiadecodigo.bootcamp.flappy;
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.GL20;
-import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import org.academiadecodigo.bootcamp.flappy.States.GameStateManager;
-import org.academiadecodigo.bootcamp.flappy.States.MenuState;
+import org.academiadecodigo.bootcamp.flappy.states.GameStateManager;
+import org.academiadecodigo.bootcamp.flappy.states.MenuState;
 
 public class Flappy extends ApplicationAdapter {
 
@@ -35,6 +34,7 @@ public class Flappy extends ApplicationAdapter {
 
         gsm.update(Gdx.graphics.getDeltaTime());
         gsm.render(batch);
+
 
     }
 }

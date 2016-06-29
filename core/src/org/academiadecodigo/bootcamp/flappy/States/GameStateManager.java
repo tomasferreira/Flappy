@@ -1,6 +1,5 @@
-package org.academiadecodigo.bootcamp.flappy.States;
+package org.academiadecodigo.bootcamp.flappy.states;
 
-import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
 import java.util.Stack;
